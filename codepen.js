@@ -35,8 +35,8 @@ function createButton() {
 
   // Create a New Tweet Element
   var msg = $('#quote').text();
-  if(msg.length > 80) {
-    msg = msg.slice(0, 77) + "..."
+  if(msg.length > 91) {
+    msg = msg.slice(0, 88) + "..."
   }
   var link = document.createElement('a');
   link.setAttribute('href', 'https://twitter.com/share');
